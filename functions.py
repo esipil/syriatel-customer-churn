@@ -11,5 +11,3 @@ def forest_feature_importance(df,title ):
     fig, ax = plt.subplots(figsize=(16, 9))
     df.plot.barh(ax=ax)
     ax.set_title(title)
-
-
